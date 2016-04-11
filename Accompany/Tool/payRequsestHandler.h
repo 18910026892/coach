@@ -8,7 +8,9 @@
 #define MCH_ID          @"1323543101"
 
 //商户API密钥，填写相应参数
-#define PARTNER_ID      @"77a5ed2b0fefd56a96ac17e7e48d0880"
+#define PARTNER_ID      @"1323543101"
+
+
 //支付结果回调页面
 #define NOTIFY_URL      @"http://123.57.216.180/api/pay/wx_notify_url"
 //获取服务器端支付数据地址（商户自定义） 没有用到

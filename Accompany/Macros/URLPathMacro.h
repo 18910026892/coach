@@ -132,7 +132,7 @@
 //提现
 #define URL_drawMoney  [MainURL stringByAppendingString:[NSString stringWithFormat:@"drawMoney"]]
 //订单创建
-#define URL_creatOrder  [MainURL stringByAppendingString:[NSString stringWithFormat:@"creatOrder"]]
+#define URL_creatOrder  [MainURL stringByAppendingString:[NSString stringWithFormat:@"createOrder"]]
 
 
 #pragma mark - 社区
