@@ -212,15 +212,14 @@
 {
     
     
-    if (!_sectionTitle) {
-        _sectionTitle = [[UILabel alloc]initWithFrame:CGRectMake(20, 5, 100, 20)];
-        _sectionTitle.backgroundColor = [UIColor clearColor];
-        _sectionTitle.textColor = [UIColor grayColor];
-        _sectionTitle.textAlignment = NSTextAlignmentLeft;
-        _sectionTitle.font = [UIFont systemFontOfSize:14.0f];
-        _sectionTitle.text = [NSString stringWithFormat:@"     选择支付方式"];
-    }
-    
+  
+    _sectionTitle = [[UILabel alloc]initWithFrame:CGRectMake(20, 5, 100, 20)];
+    _sectionTitle.backgroundColor = [UIColor clearColor];
+    _sectionTitle.textColor = [UIColor grayColor];
+    _sectionTitle.textAlignment = NSTextAlignmentLeft;
+    _sectionTitle.font = [UIFont systemFontOfSize:14.0f];
+    _sectionTitle.text = [NSString stringWithFormat:@"     选择支付方式"];
+  
     return _sectionTitle;
     
 }

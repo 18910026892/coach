@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JLVideoPlayerViewController">
@@ -31,7 +31,6 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7J-qX-kZ3">
                             <rect key="frame" x="8" y="0.0" width="40" height="40"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="40" id="0aW-6x-fHD"/>
                                 <constraint firstAttribute="height" constant="40" id="PF3-80-9m2"/>
@@ -45,13 +44,11 @@
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视频播放练习视频播放练习" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQc-Im-v8m">
                             <rect key="frame" x="51" y="11" width="541" height="18"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="O7J-qX-kZ3" firstAttribute="leading" secondItem="zUN-k2-aMu" secondAttribute="leading" constant="8" id="5gB-kK-EBX"/>
@@ -68,7 +65,6 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jK-Zy-n19">
                             <rect key="frame" x="5" y="0.0" width="40" height="40"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="1uV-2Q-WVq"/>
                                 <constraint firstAttribute="width" constant="40" id="tsr-Cd-wzS"/>
@@ -80,7 +76,6 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udv-eQ-e1L">
                             <rect key="frame" x="48" y="0.0" width="45" height="40"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="45" id="JpV-cU-TDI"/>
                                 <constraint firstAttribute="height" constant="40" id="SZD-lE-Fba"/>
@@ -91,8 +86,7 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9az-jf-dHb">
-                            <rect key="frame" x="111" y="10" width="31.5" height="21"/>
-                            <animations/>
+                            <rect key="frame" x="111" y="10" width="32" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="G3t-En-YMt"/>
                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="65" id="kFk-ZO-Zhp"/>
@@ -101,16 +95,14 @@
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="AGm-Kf-e1L">
-                            <rect key="frame" x="149" y="5" width="383.5" height="31"/>
-                            <animations/>
+                        <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="AGm-Kf-e1L">
+                            <rect key="frame" x="149" y="5" width="384" height="31"/>
                             <connections>
                                 <action selector="topSliderValueChangedAction:" destination="-1" eventType="valueChanged" id="ggp-Oy-UNu"/>
                             </connections>
                         </slider>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exh-dA-KUH">
-                            <rect key="frame" x="538" y="10" width="31.5" height="21"/>
-                            <animations/>
+                            <rect key="frame" x="538" y="10" width="32" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="65" id="KnE-ew-Eg9"/>
                                 <constraint firstAttribute="height" constant="21" id="NUN-xu-HU9"/>
@@ -120,7 +112,6 @@
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="9az-jf-dHb" firstAttribute="leading" secondItem="udv-eQ-e1L" secondAttribute="trailing" constant="18" id="4K4-gt-nhO"/>
@@ -139,7 +130,6 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ca6-lq-7Tk">
                     <rect key="frame" x="260" y="260" width="80" height="80"/>
-                    <animations/>
                     <constraints>
                         <constraint firstAttribute="width" constant="80" id="O4m-eK-RYR"/>
                         <constraint firstAttribute="height" constant="80" id="k3K-zG-5t5"/>
@@ -150,7 +140,6 @@
                     </connections>
                 </button>
             </subviews>
-            <animations/>
             <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="8lV-me-wgb" secondAttribute="bottom" id="6Ck-Yc-Ddb"/>

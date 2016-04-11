@@ -4080,7 +4080,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CoachAccompanying.coach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "09ba6cb4-b568-4929-af88-e9ed00723d4e";
+				PROVISIONING_PROFILE = "a3aaabfb-a65d-45b0-b080-a0e70ff027df";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
@@ -4144,7 +4144,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CoachAccompanying.coach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "09ba6cb4-b568-4929-af88-e9ed00723d4e";
+				PROVISIONING_PROFILE = "a3aaabfb-a65d-45b0-b080-a0e70ff027df";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;

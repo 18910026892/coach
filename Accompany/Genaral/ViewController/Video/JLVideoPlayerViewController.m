@@ -76,6 +76,8 @@
     }
     _TitltLable.text = _movieModel.name;
     _movieURL = [NSURL URLWithString:_movieModel.url];
+
+    
     [self setUpViews];
     [HDHud showHUDInView:self.view title:@"缓冲中"];
 }

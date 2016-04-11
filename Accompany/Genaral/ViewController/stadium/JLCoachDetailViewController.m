@@ -459,15 +459,14 @@ static const char kRepresentedObject;
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section;
 {
 
-    if (!_sectionTitle) {
-        _sectionTitle = [[UILabel alloc]initWithFrame:CGRectMake(20, 5, 100, 20)];
-        _sectionTitle.backgroundColor = [UIColor clearColor];
-        _sectionTitle.textColor = [UIColor grayColor];
-        _sectionTitle.textAlignment = NSTextAlignmentLeft;
-        _sectionTitle.font = [UIFont systemFontOfSize:14.0f];
-        _sectionTitle.text = [NSString stringWithFormat:@"     评论数%lu",(unsigned long)[_tableArray count]];
-    }
-
+   
+    _sectionTitle = [[UILabel alloc]initWithFrame:CGRectMake(20, 5, 100, 20)];
+    _sectionTitle.backgroundColor = [UIColor clearColor];
+    _sectionTitle.textColor = [UIColor grayColor];
+    _sectionTitle.textAlignment = NSTextAlignmentLeft;
+    _sectionTitle.font = [UIFont systemFontOfSize:14.0f];
+    _sectionTitle.text = [NSString stringWithFormat:@"     评论数%lu",(unsigned long)[_tableArray count]];
+  
     return _sectionTitle;
     
 }
