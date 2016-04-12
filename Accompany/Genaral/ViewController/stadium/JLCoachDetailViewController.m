@@ -411,7 +411,7 @@ static const char kRepresentedObject;
         [_TableView addSubview:self.PhotoImageView];
         [_TableView addSubview:self.NickNameLabel];
         [_TableView addSubview:self.InfoLabel];
-        [_TableView addSubview:self.BuyClassButtonButton];
+       // [_TableView addSubview:self.BuyClassButtonButton];
     }
     
     return _TableView;

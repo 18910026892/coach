@@ -80,31 +80,21 @@
     [self initBaiduMap];
     [self inituserInfo];
     
-//    NSString *apnsCertName = nil;
-//#if DEBUG
-//    apnsCertName = @"jiaoliand";
-//#else
-//    apnsCertName = @"jiaolianp";
-//#endif
-//    [self easemobApplication:application
-//didFinishLaunchingWithOptions:launchOptions
-//                      appkey:@"bjjoinus#coachaccompanying"
-//                apnsCertName:apnsCertName
-//                 otherConfig:@{kSDKConfigEnableConsoleLogger:[NSNumber numberWithBool:YES]}];
-    
-    
-    
     NSString *apnsCertName = nil;
 #if DEBUG
-    apnsCertName = @"accompanyd";
+    apnsCertName = @"jiaoliand";
 #else
-    apnsCertName = @"accompanyp";
+    apnsCertName = @"jiaolianp";
 #endif
     [self easemobApplication:application
 didFinishLaunchingWithOptions:launchOptions
-                      appkey:@"gongxin#accompany"
+                      appkey:@"bjjoinus#coachaccompanying"
                 apnsCertName:apnsCertName
                  otherConfig:@{kSDKConfigEnableConsoleLogger:[NSNumber numberWithBool:YES]}];
+    
+    
+    
+ 
     
     
     

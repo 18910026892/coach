@@ -49,9 +49,9 @@
     [self.view addSubview:self.lineLabel1];
     [self.view addSubview:self.lineLabel2];
     [self.view addSubview:self.LoginButton];
-    [self.view addSubview:self.QQButton];
-    [self.view addSubview:self.WechatButton];
-    [self.view addSubview:self.WeiboButton];
+//    [self.view addSubview:self.QQButton];
+//    [self.view addSubview:self.WechatButton];
+//    [self.view addSubview:self.WeiboButton];
     [self.view addSubview:self.ForgetPasswordButton];
     
    
