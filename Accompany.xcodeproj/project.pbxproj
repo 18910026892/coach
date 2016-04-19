@@ -267,7 +267,7 @@
 		D2DB896B1C53690E0085AC09 /* UIUnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB896A1C53690E0085AC09 /* UIUnderlinedButton.m */; };
 		D2DB896E1C5369210085AC09 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB896D1C5369210085AC09 /* CustomTextField.m */; };
 		D2DB897B1C5369D10085AC09 /* ProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB89771C5369D10085AC09 /* ProtocolViewController.m */; };
-		D2DB897C1C5369D10085AC09 /* 苏宁易购会员章程.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2DB89791C5369D10085AC09 /* 苏宁易购会员章程.txt */; };
+		D2DB897C1C5369D10085AC09 /* 教练随行会员章程.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2DB89791C5369D10085AC09 /* 教练随行会员章程.txt */; };
 		D2DB89821C5369F10085AC09 /* ApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB89801C5369F10085AC09 /* ApplyViewController.m */; };
 		D2DB89981C53A8DD0085AC09 /* StadiumCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB89971C53A8DD0085AC09 /* StadiumCollectionModel.m */; };
 		D2DB899B1C53AB4A0085AC09 /* StadiumAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB899A1C53AB4A0085AC09 /* StadiumAdModel.m */; };
@@ -993,7 +993,7 @@
 		D2DB896D1C5369210085AC09 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		D2DB89771C5369D10085AC09 /* ProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolViewController.m; sourceTree = "<group>"; };
 		D2DB89781C5369D10085AC09 /* ProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolViewController.h; sourceTree = "<group>"; };
-		D2DB89791C5369D10085AC09 /* 苏宁易购会员章程.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "苏宁易购会员章程.txt"; sourceTree = "<group>"; };
+		D2DB89791C5369D10085AC09 /* 教练随行会员章程.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "教练随行会员章程.txt"; sourceTree = "<group>"; };
 		D2DB89801C5369F10085AC09 /* ApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyViewController.m; sourceTree = "<group>"; };
 		D2DB89811C5369F10085AC09 /* ApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyViewController.h; sourceTree = "<group>"; };
 		D2DB89961C53A8DD0085AC09 /* StadiumCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StadiumCollectionModel.h; sourceTree = "<group>"; };
@@ -2586,7 +2586,7 @@
 				D25CC1811C75621D00411AA7 /* RegisterViewController.m */,
 				D2DB89781C5369D10085AC09 /* ProtocolViewController.h */,
 				D2DB89771C5369D10085AC09 /* ProtocolViewController.m */,
-				D2DB89791C5369D10085AC09 /* 苏宁易购会员章程.txt */,
+				D2DB89791C5369D10085AC09 /* 教练随行会员章程.txt */,
 			);
 			name = Register;
 			sourceTree = "<group>";
@@ -3472,7 +3472,7 @@
 				FCF020021C83DFE60053F187 /* tab2_gray@2x.png in Resources */,
 				FCF0200D1C83DFE60053F187 /* attention_jia@2x.png in Resources */,
 				FCF0200B1C83DFE60053F187 /* addimage@2x.png in Resources */,
-				D2DB897C1C5369D10085AC09 /* 苏宁易购会员章程.txt in Resources */,
+				D2DB897C1C5369D10085AC09 /* 教练随行会员章程.txt in Resources */,
 				D2D724571C5F926A00B1CEDA /* group@2x.png in Resources */,
 				FCF020041C83DFE60053F187 /* tab3_gray@2x.png in Resources */,
 				D2D724401C5F926A00B1CEDA /* chatBar_colorMore_audioCallSelected@2x.png in Resources */,
@@ -4080,7 +4080,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CoachAccompanying.coach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "dedd9961-3806-441d-8997-4ed49c974bf0";
+				PROVISIONING_PROFILE = "191c2de7-d2d7-4ef9-80fc-ac8405f2f114";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
@@ -4144,7 +4144,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CoachAccompanying.coach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "dedd9961-3806-441d-8997-4ed49c974bf0";
+				PROVISIONING_PROFILE = "191c2de7-d2d7-4ef9-80fc-ac8405f2f114";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
