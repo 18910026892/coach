@@ -216,7 +216,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
 }
 -(void)kefu
 {
-    NSString * telNumber = [NSString stringWithFormat:@"tel://18910026892"];
+    NSString * telNumber = [NSString stringWithFormat:@"tel://67634922"];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:telNumber]];
     
 }
