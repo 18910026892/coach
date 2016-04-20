@@ -207,7 +207,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     
     [self.RightBtn setTitle:@"客服" forState:UIControlStateNormal];
     [self.RightBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    
+    [self.RightBtn addTarget:self action:@selector(kefu) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:self.BGView];
     [self.view addSubview:self.imgView];
