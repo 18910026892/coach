@@ -130,7 +130,7 @@
     if (!_buttonTitle) {
         _buttonTitle = [[UILabel alloc]init];
         _buttonTitle.frame = CGRectMake(10, kMainBoundsHeight-100, kMainBoundsWidth-20, 20);
-        _buttonTitle.text = @"证书上传";
+        _buttonTitle.text = @"证件上传";
         _buttonTitle.textColor =[UIColor grayColor];
         _buttonTitle.font = [UIFont systemFontOfSize:14];
         _buttonTitle.textAlignment = NSTextAlignmentCenter;

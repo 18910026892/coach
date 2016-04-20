@@ -365,7 +365,7 @@
                 {
                     CGRect rect = CGRectMake(kMainBoundsWidth-80*Proportion,0, 64*Proportion, 44);
                     
-                    _typeArray= @[@"狂人",@"健身",@"瘦腿",@"瘦腰"];
+                    _typeArray= @[@"健身教练",@"游泳教练",@"舞蹈教练",@"羽毛球教练",@"网球教练",@"滑雪教练"];
                     
                     _TypePickerButton =  [[PickerButton alloc]initWithItemList:_typeArray];
                     
