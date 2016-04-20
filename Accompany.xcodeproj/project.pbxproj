@@ -18,7 +18,6 @@
 		D21EC1661C5D10C5007AA9A3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D21EC1681C5D10C5007AA9A3 /* Localizable.strings */; };
 		D23F8C361C58EAE200EE7923 /* JLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23F8C301C58EAE200EE7923 /* JLVideoViewController.m */; };
 		D23FFDDA1C71A62300322617 /* JLChatMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D23FFDD91C71A62300322617 /* JLChatMenuView.m */; };
-		D23FFDDF1C71B45D00322617 /* JLNearbyPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23FFDDE1C71B45D00322617 /* JLNearbyPeopleViewController.m */; };
 		D24D84D61C74719000C62F6A /* JLApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D84D51C74719000C62F6A /* JLApplyViewController.m */; };
 		D25833FA1C62E10300695298 /* JLMyDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25833F91C62E10300695298 /* JLMyDynamicViewController.m */; };
 		D25833FE1C62F7AA00695298 /* DJQStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25833FD1C62F7AA00695298 /* DJQStartView.m */; };
@@ -52,7 +51,6 @@
 		D26AF0F61C6043EC00545770 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = D26AF0EE1C6043EC00545770 /* UIResponder+Router.m */; };
 		D26AF0F71C6043EC00545770 /* NSString+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = D26AF0F01C6043EC00545770 /* NSString+Valid.m */; };
 		D26AF0F81C6043EC00545770 /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = D26AF0F21C6043EC00545770 /* UIViewController+DismissKeyboard.m */; };
-		D26AF0FD1C6045E200545770 /* JLAddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26AF0FC1C6045E200545770 /* JLAddFriendViewController.m */; };
 		D26AF1081C60469300545770 /* JLApplyFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D26AF1071C60469300545770 /* JLApplyFriendCell.m */; };
 		D26AF10C1C60493B00545770 /* EMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D26AF10B1C60493B00545770 /* EMAlertView.m */; };
 		D26AF1101C604BF500545770 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26AF10E1C604BF500545770 /* Bolts.framework */; };
@@ -63,6 +61,9 @@
 		D26C7CF01C93E6BA005AAF00 /* JLArowInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D26C7CED1C93E6BA005AAF00 /* JLArowInputCell.m */; };
 		D270B1E21C5B0E4E004B18B9 /* JLBusinessCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270B1E11C5B0E4E004B18B9 /* JLBusinessCardViewController.m */; };
 		D270B1ED1C5B147E004B18B9 /* JLLessonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270B1EC1C5B147E004B18B9 /* JLLessonsViewController.m */; };
+		D273CF7A1CC72C870083A2EA /* JLOtherAddFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF791CC72C870083A2EA /* JLOtherAddFriendCell.m */; };
+		D273CF7D1CC72CB90083A2EA /* JLAddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF7C1CC72CB90083A2EA /* JLAddFriendViewController.m */; };
+		D273CF801CC72CD30083A2EA /* JLNearbyPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF7F1CC72CD30083A2EA /* JLNearbyPeopleViewController.m */; };
 		D27438991CA372B60011E99F /* JLCoachDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27438981CA372B60011E99F /* JLCoachDetailViewController.m */; };
 		D27438A71CA3B60F0011E99F /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D27438A61CA3B60F0011E99F /* CommonUtil.m */; };
 		D27438C31CA3D6850011E99F /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D27438C21CA3D6850011E99F /* QRCodeGenerator.m */; };
@@ -93,7 +94,6 @@
 		D29760AB1CA25F0200F7E843 /* APAuthV2Info.m in Sources */ = {isa = PBXBuildFile; fileRef = D29760A81CA25F0200F7E843 /* APAuthV2Info.m */; };
 		D29760AC1CA25F0200F7E843 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = D29760AA1CA25F0200F7E843 /* Order.m */; };
 		D2B7B9A41C965B0E0047ABE8 /* JLAddFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B7B9A31C965B0E0047ABE8 /* JLAddFriendCell.m */; };
-		D2B7B9A71C965B2F0047ABE8 /* JLOtherAddFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B7B9A61C965B2F0047ABE8 /* JLOtherAddFriendCell.m */; };
 		D2B80DD21CB8CD890007B049 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B80DD11CB8CD890007B049 /* MessageModel.m */; };
 		D2B80DD51CB8CD900007B049 /* UserProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B80DD41CB8CD900007B049 /* UserProfileManager.m */; };
 		D2B80DD81CB8CD990007B049 /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B80DD71CB8CD990007B049 /* InvitationManager.m */; };
@@ -465,8 +465,6 @@
 		D23F8C301C58EAE200EE7923 /* JLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLVideoViewController.m; sourceTree = "<group>"; };
 		D23FFDD81C71A62300322617 /* JLChatMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLChatMenuView.h; sourceTree = "<group>"; };
 		D23FFDD91C71A62300322617 /* JLChatMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLChatMenuView.m; sourceTree = "<group>"; };
-		D23FFDDD1C71B45D00322617 /* JLNearbyPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNearbyPeopleViewController.h; sourceTree = "<group>"; };
-		D23FFDDE1C71B45D00322617 /* JLNearbyPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNearbyPeopleViewController.m; sourceTree = "<group>"; };
 		D24D84D41C74719000C62F6A /* JLApplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLApplyViewController.h; sourceTree = "<group>"; };
 		D24D84D51C74719000C62F6A /* JLApplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLApplyViewController.m; sourceTree = "<group>"; };
 		D25833F81C62E10300695298 /* JLMyDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMyDynamicViewController.h; sourceTree = "<group>"; };
@@ -533,8 +531,6 @@
 		D26AF0F01C6043EC00545770 /* NSString+Valid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Valid.m"; path = "../Tool/NSString+Valid.m"; sourceTree = "<group>"; };
 		D26AF0F11C6043EC00545770 /* UIViewController+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DismissKeyboard.h"; path = "../Tool/UIViewController+DismissKeyboard.h"; sourceTree = "<group>"; };
 		D26AF0F21C6043EC00545770 /* UIViewController+DismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DismissKeyboard.m"; path = "../Tool/UIViewController+DismissKeyboard.m"; sourceTree = "<group>"; };
-		D26AF0FB1C6045E200545770 /* JLAddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAddFriendViewController.h; sourceTree = "<group>"; };
-		D26AF0FC1C6045E200545770 /* JLAddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAddFriendViewController.m; sourceTree = "<group>"; };
 		D26AF1061C60469300545770 /* JLApplyFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLApplyFriendCell.h; sourceTree = "<group>"; };
 		D26AF1071C60469300545770 /* JLApplyFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLApplyFriendCell.m; sourceTree = "<group>"; };
 		D26AF10A1C60493B00545770 /* EMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAlertView.h; sourceTree = "<group>"; };
@@ -552,6 +548,12 @@
 		D270B1E11C5B0E4E004B18B9 /* JLBusinessCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBusinessCardViewController.m; sourceTree = "<group>"; };
 		D270B1EB1C5B147E004B18B9 /* JLLessonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLessonsViewController.h; sourceTree = "<group>"; };
 		D270B1EC1C5B147E004B18B9 /* JLLessonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLessonsViewController.m; sourceTree = "<group>"; };
+		D273CF781CC72C870083A2EA /* JLOtherAddFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLOtherAddFriendCell.h; sourceTree = "<group>"; };
+		D273CF791CC72C870083A2EA /* JLOtherAddFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLOtherAddFriendCell.m; sourceTree = "<group>"; };
+		D273CF7B1CC72CB90083A2EA /* JLAddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAddFriendViewController.h; sourceTree = "<group>"; };
+		D273CF7C1CC72CB90083A2EA /* JLAddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAddFriendViewController.m; sourceTree = "<group>"; };
+		D273CF7E1CC72CD30083A2EA /* JLNearbyPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNearbyPeopleViewController.h; sourceTree = "<group>"; };
+		D273CF7F1CC72CD30083A2EA /* JLNearbyPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNearbyPeopleViewController.m; sourceTree = "<group>"; };
 		D27438971CA372B60011E99F /* JLCoachDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCoachDetailViewController.h; sourceTree = "<group>"; };
 		D27438981CA372B60011E99F /* JLCoachDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCoachDetailViewController.m; sourceTree = "<group>"; };
 		D27438A51CA3B60F0011E99F /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
@@ -684,8 +686,6 @@
 		D29760AA1CA25F0200F7E843 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = payother/Order.m; sourceTree = "<group>"; };
 		D2B7B9A21C965B0E0047ABE8 /* JLAddFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAddFriendCell.h; sourceTree = "<group>"; };
 		D2B7B9A31C965B0E0047ABE8 /* JLAddFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAddFriendCell.m; sourceTree = "<group>"; };
-		D2B7B9A51C965B2F0047ABE8 /* JLOtherAddFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLOtherAddFriendCell.h; sourceTree = "<group>"; };
-		D2B7B9A61C965B2F0047ABE8 /* JLOtherAddFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLOtherAddFriendCell.m; sourceTree = "<group>"; };
 		D2B80DD01CB8CD890007B049 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageModel.h; path = Me/MessageModel.h; sourceTree = "<group>"; };
 		D2B80DD11CB8CD890007B049 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageModel.m; path = Me/MessageModel.m; sourceTree = "<group>"; };
 		D2B80DD31CB8CD900007B049 /* UserProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileManager.h; path = Me/UserProfileManager.h; sourceTree = "<group>"; };
@@ -1398,8 +1398,8 @@
 		D23FFDDB1C71B42400322617 /* Nearby */ = {
 			isa = PBXGroup;
 			children = (
-				D23FFDDD1C71B45D00322617 /* JLNearbyPeopleViewController.h */,
-				D23FFDDE1C71B45D00322617 /* JLNearbyPeopleViewController.m */,
+				D273CF7E1CC72CD30083A2EA /* JLNearbyPeopleViewController.h */,
+				D273CF7F1CC72CD30083A2EA /* JLNearbyPeopleViewController.m */,
 			);
 			name = Nearby;
 			sourceTree = "<group>";
@@ -1560,8 +1560,8 @@
 		D26AF0F91C6045C000545770 /* AddFriend */ = {
 			isa = PBXGroup;
 			children = (
-				D26AF0FB1C6045E200545770 /* JLAddFriendViewController.h */,
-				D26AF0FC1C6045E200545770 /* JLAddFriendViewController.m */,
+				D273CF7B1CC72CB90083A2EA /* JLAddFriendViewController.h */,
+				D273CF7C1CC72CB90083A2EA /* JLAddFriendViewController.m */,
 			);
 			name = AddFriend;
 			sourceTree = "<group>";
@@ -1843,8 +1843,8 @@
 		D2B7B99E1C965A7A0047ABE8 /* JLAddFriend */ = {
 			isa = PBXGroup;
 			children = (
-				D2B7B9A51C965B2F0047ABE8 /* JLOtherAddFriendCell.h */,
-				D2B7B9A61C965B2F0047ABE8 /* JLOtherAddFriendCell.m */,
+				D273CF781CC72C870083A2EA /* JLOtherAddFriendCell.h */,
+				D273CF791CC72C870083A2EA /* JLOtherAddFriendCell.m */,
 			);
 			name = JLAddFriend;
 			sourceTree = "<group>";
@@ -3654,6 +3654,7 @@
 				FC6F774A1C52088B003671C6 /* Helper+Cache.m in Sources */,
 				FC95226B1C95415700558A65 /* JLVideoItemModel.m in Sources */,
 				D29760AC1CA25F0200F7E843 /* Order.m in Sources */,
+				D273CF7D1CC72CB90083A2EA /* JLAddFriendViewController.m in Sources */,
 				D26AF0F41C6043EC00545770 /* NSDate+Category.m in Sources */,
 				FCD1A7A91CB8C11300E1D469 /* UIImage+Cut.m in Sources */,
 				D25834011C62F95700695298 /* DJQRateView.m in Sources */,
@@ -3706,6 +3707,7 @@
 				D2646EEA1C72F5600073C0F6 /* UserDefaultsUtils.m in Sources */,
 				D218576D1CAB9E8B00C5128F /* ApiXml.m in Sources */,
 				FC6F77181C52011E003671C6 /* NSString+Validation.m in Sources */,
+				D273CF7A1CC72C870083A2EA /* JLOtherAddFriendCell.m in Sources */,
 				FC6F775B1C521958003671C6 /* Helper+UserDefault.m in Sources */,
 				D27438D71CA3D68E0011E99F /* rscode.c in Sources */,
 				FCAE7AB21CA6C9F700D94035 /* JLPostCommentListModel.m in Sources */,
@@ -3724,7 +3726,6 @@
 				D29760AB1CA25F0200F7E843 /* APAuthV2Info.m in Sources */,
 				D26AF0D51C603E6B00545770 /* EMSearchBar.m in Sources */,
 				FCD1A7A11CB8C11300E1D469 /* JLMycomListCell.m in Sources */,
-				D26AF0FD1C6045E200545770 /* JLAddFriendViewController.m in Sources */,
 				D2D7240D1C5F926A00B1CEDA /* EaseConversationModel.m in Sources */,
 				D2D9AE221C5B851300D8E833 /* JLPersonalPhotoCollectionViewCell.m in Sources */,
 				FC6F77341C520558003671C6 /* UIView+Additional.m in Sources */,
@@ -3825,6 +3826,7 @@
 				D2D723F21C5F926A00B1CEDA /* EMSDWebImageDownloaderOperation.m in Sources */,
 				FC6F77731C522CEB003671C6 /* JLChatViewController.m in Sources */,
 				D2D723EE1C5F926A00B1CEDA /* EMSDImageCache.m in Sources */,
+				D273CF801CC72CD30083A2EA /* JLNearbyPeopleViewController.m in Sources */,
 				D2975EA11CA2368E00F7E843 /* JLPaySuccessViewController.m in Sources */,
 				D2D7241C1C5F926A00B1CEDA /* EaseEmotionManager.m in Sources */,
 				D26AF0F71C6043EC00545770 /* NSString+Valid.m in Sources */,
@@ -3868,7 +3870,6 @@
 				FC6F77471C520783003671C6 /* Helper+Date.m in Sources */,
 				D2D9AE1A1C5B84C400D8E833 /* JLPersonalCenterViewController.m in Sources */,
 				D2D9E1F11C78A27100BBCF3D /* JLExchangeVoucherViewController.m in Sources */,
-				D23FFDDF1C71B45D00322617 /* JLNearbyPeopleViewController.m in Sources */,
 				D2D7240F1C5F926A00B1CEDA /* EaseUserModel.m in Sources */,
 				D2D7242F1C5F926A00B1CEDA /* EaseChatToolbarItem.m in Sources */,
 				D25CC1881C75625C00411AA7 /* JLBingdingPhoneViewController.m in Sources */,
@@ -3905,7 +3906,6 @@
 				D2D9AE1E1C5B84EF00D8E833 /* JLPersonalCenterHeader.m in Sources */,
 				D2D7242A1C5F926A00B1CEDA /* EaseBubbleView+Text.m in Sources */,
 				D2D723F81C5F926A00B1CEDA /* UIImage+EMGIF.m in Sources */,
-				D2B7B9A71C965B2F0047ABE8 /* JLOtherAddFriendCell.m in Sources */,
 				D2D723F61C5F926A00B1CEDA /* NSData+EMImageContentType.m in Sources */,
 				D28FBD2F1CAA71AE005B3AE6 /* JLParticipationDynamicViewController.m in Sources */,
 			);

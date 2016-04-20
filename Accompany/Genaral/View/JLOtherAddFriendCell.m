@@ -39,13 +39,14 @@
     
     NSString * imageUrl = UserModel.userPhoto;
     
-    
     //头像
     _userImageView = [[UIImageView alloc]init];
     _userImageView.frame = CGRectMake(10, 7.5, 35, 35);
     NSString * tianChongImage = @"otherphoto";
     [_userImageView sd_setImageWithURL:[NSURL URLWithString:imageUrl] placeholderImage:[UIImage imageNamed:tianChongImage]];
-    
+    UITapGestureRecognizer *tap =[[UITapGestureRecognizer alloc]initWithTarget:self  action:@selector(userImageTap:)];
+    [_userImageView addGestureRecognizer:tap];
+    _userImageView.userInteractionEnabled = YES;
     [self.contentView addSubview:_userImageView];
     
     
@@ -70,7 +71,27 @@
     _addLabel.font = [UIFont systemFontOfSize:14.0];
     _addLabel.layer.cornerRadius = 5;
     _addLabel.layer.masksToBounds = YES;
+    UITapGestureRecognizer *tap1 =[[UITapGestureRecognizer alloc]initWithTarget:self  action:@selector(addLabelTap:)];
+    [_addLabel addGestureRecognizer:tap1];
+    _addLabel.userInteractionEnabled = YES;
     [self.contentView addSubview:_addLabel];
     
 }
+
+-(void)userImageTap:(UIGestureRecognizer *)gesture
+{
+   
+    if(_delegate){
+            [_delegate postCell:self userImageTapWithData:_UserModel];
+    }
+}
+-(void)addLabelTap:(UIGestureRecognizer *)gesture
+{
+    
+    if(_delegate){
+        NSLog(@"123");
+        [_delegate addCell:self addFriendTapWithData:_UserModel];
+    }
+}
+
 @end
