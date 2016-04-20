@@ -23,7 +23,7 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [[EaseSDKHelper shareHelper] easemobApplication:application
                       didFinishLaunchingWithOptions:launchOptions
-                                             appkey:@"gongxin#accompany"
+                                             appkey:@"bjjoinus#coachaccompanying"
                                        apnsCertName:apnsCertName
                                         otherConfig:@{kSDKConfigEnableConsoleLogger:[NSNumber numberWithBool:YES]}];
     

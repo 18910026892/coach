@@ -37,7 +37,14 @@ static const char kRepresentedObject;
     [self setNavigationBarHide:YES];
     [self setupDatas];
     [self setupViews];
-     [[NickNameAndHeadImage shareInstance] loadUserProfileInBackgroundWithUserId:self.userModel.userId];
+    
+    if ([_pushFlag isEqualToString:@"chat"]) {
+        NSLog(@"chat");
+    }else
+    {
+         [[NickNameAndHeadImage shareInstance] loadUserProfileInBackgroundWithUserId:self.userModel.userId];
+    }
+   
     
 }
 -(void)setupDatas
@@ -82,7 +89,7 @@ static const char kRepresentedObject;
     [request getResultWithSuccess:^(id response) {
         NSArray *resultList = (NSArray *)response;
 
-        
+        NSLog(@"**%@",resultList);
         if(page==1){
             [_dynamicArray removeAllObjects];
         }
@@ -624,9 +631,9 @@ static const char kRepresentedObject;
 
     //微信
     
-    [UMSocialData setAppKey:@"56f9ebb1e0f55a112b001834"];
+    [UMSocialData setAppKey:@"56f9ebd9e0f55a288f0002b2"];
     
-     [UMSocialWechatHandler setWXAppId:@"wx65d8cec5be724bcb" appSecret:@"309d46f593addf874d01f3b3b7cda972" url:_shareUrl];
+     [UMSocialWechatHandler setWXAppId:@"wx81081a8c63bf91af" appSecret:@"bb612dc3b9bde84633fbd54b692a70d6" url:_shareUrl];
     [UMSocialData defaultData].extConfig.wechatSessionData.title = @"教练随行";
     [UMSocialData defaultData].extConfig.wechatTimelineData.title = @"教练随行";
     
@@ -648,7 +655,7 @@ static const char kRepresentedObject;
     
     
     [UMSocialSnsService presentSnsIconSheetView:self
-                                         appKey:@"56f9ebb1e0f55a112b001834"
+                                         appKey:@"56f9ebd9e0f55a288f0002b2"
                                       shareText:@"教练随行"
                                      shareImage:nil
                                 shareToSnsNames:[NSArray arrayWithObjects:UMShareToSina,UMShareToWechatSession,UMShareToWechatTimeline,UMShareToQzone,nil]

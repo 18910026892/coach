@@ -62,8 +62,10 @@
 		D270B1E21C5B0E4E004B18B9 /* JLBusinessCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270B1E11C5B0E4E004B18B9 /* JLBusinessCardViewController.m */; };
 		D270B1ED1C5B147E004B18B9 /* JLLessonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D270B1EC1C5B147E004B18B9 /* JLLessonsViewController.m */; };
 		D273CF7A1CC72C870083A2EA /* JLOtherAddFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF791CC72C870083A2EA /* JLOtherAddFriendCell.m */; };
-		D273CF7D1CC72CB90083A2EA /* JLAddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF7C1CC72CB90083A2EA /* JLAddFriendViewController.m */; };
 		D273CF801CC72CD30083A2EA /* JLNearbyPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF7F1CC72CD30083A2EA /* JLNearbyPeopleViewController.m */; };
+		D273CF831CC730880083A2EA /* JLAddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF821CC730880083A2EA /* JLAddFriendViewController.m */; };
+		D273CF861CC746200083A2EA /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF851CC746200083A2EA /* ChatViewController.m */; };
+		D273CF891CC746430083A2EA /* JLPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D273CF881CC746430083A2EA /* JLPersonalCenterViewController.m */; };
 		D27438991CA372B60011E99F /* JLCoachDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27438981CA372B60011E99F /* JLCoachDetailViewController.m */; };
 		D27438A71CA3B60F0011E99F /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D27438A61CA3B60F0011E99F /* CommonUtil.m */; };
 		D27438C31CA3D6850011E99F /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D27438C21CA3D6850011E99F /* QRCodeGenerator.m */; };
@@ -98,7 +100,6 @@
 		D2B80DD51CB8CD900007B049 /* UserProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B80DD41CB8CD900007B049 /* UserProfileManager.m */; };
 		D2B80DD81CB8CD990007B049 /* InvitationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B80DD71CB8CD990007B049 /* InvitationManager.m */; };
 		D2C24FD41C5646C7007A58F0 /* JLUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C24FD31C5646C7007A58F0 /* JLUserInfoViewController.m */; };
-		D2D723D41C5F926900B1CEDA /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7229E1C5F926900B1CEDA /* ChatViewController.m */; };
 		D2D723D51C5F926900B1CEDA /* CustomMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D722A11C5F926900B1CEDA /* CustomMessageCell.m */; };
 		D2D723D61C5F926900B1CEDA /* EMBubbleView+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D722A31C5F926900B1CEDA /* EMBubbleView+Gif.m */; };
 		D2D723D71C5F926900B1CEDA /* EaseUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D722A71C5F926900B1CEDA /* EaseUI.m */; };
@@ -258,7 +259,6 @@
 		D2D7AC341C720B0E00180A0F /* JLBarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7AC331C720B0E00180A0F /* JLBarCodeViewController.m */; };
 		D2D968F01C66E4C60085D0FB /* CoachDetailHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D968EF1C66E4C60085D0FB /* CoachDetailHeader.m */; };
 		D2D978F31C7978D200529796 /* JLExchangeVoucherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D978F21C7978D200529796 /* JLExchangeVoucherCell.m */; };
-		D2D9AE1A1C5B84C400D8E833 /* JLPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D9AE191C5B84C400D8E833 /* JLPersonalCenterViewController.m */; };
 		D2D9AE1E1C5B84EF00D8E833 /* JLPersonalCenterHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D9AE1D1C5B84EF00D8E833 /* JLPersonalCenterHeader.m */; };
 		D2D9AE221C5B851300D8E833 /* JLPersonalPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D9AE211C5B851300D8E833 /* JLPersonalPhotoCollectionViewCell.m */; };
 		D2D9E1EE1C78A25700BBCF3D /* JLReadeemCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D9E1ED1C78A25700BBCF3D /* JLReadeemCodeViewController.m */; };
@@ -550,10 +550,14 @@
 		D270B1EC1C5B147E004B18B9 /* JLLessonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLessonsViewController.m; sourceTree = "<group>"; };
 		D273CF781CC72C870083A2EA /* JLOtherAddFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLOtherAddFriendCell.h; sourceTree = "<group>"; };
 		D273CF791CC72C870083A2EA /* JLOtherAddFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLOtherAddFriendCell.m; sourceTree = "<group>"; };
-		D273CF7B1CC72CB90083A2EA /* JLAddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAddFriendViewController.h; sourceTree = "<group>"; };
-		D273CF7C1CC72CB90083A2EA /* JLAddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAddFriendViewController.m; sourceTree = "<group>"; };
 		D273CF7E1CC72CD30083A2EA /* JLNearbyPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNearbyPeopleViewController.h; sourceTree = "<group>"; };
 		D273CF7F1CC72CD30083A2EA /* JLNearbyPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNearbyPeopleViewController.m; sourceTree = "<group>"; };
+		D273CF811CC730880083A2EA /* JLAddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAddFriendViewController.h; sourceTree = "<group>"; };
+		D273CF821CC730880083A2EA /* JLAddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAddFriendViewController.m; sourceTree = "<group>"; };
+		D273CF841CC746200083A2EA /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		D273CF851CC746200083A2EA /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		D273CF871CC746430083A2EA /* JLPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPersonalCenterViewController.h; sourceTree = "<group>"; };
+		D273CF881CC746430083A2EA /* JLPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPersonalCenterViewController.m; sourceTree = "<group>"; };
 		D27438971CA372B60011E99F /* JLCoachDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCoachDetailViewController.h; sourceTree = "<group>"; };
 		D27438981CA372B60011E99F /* JLCoachDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCoachDetailViewController.m; sourceTree = "<group>"; };
 		D27438A51CA3B60F0011E99F /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
@@ -694,8 +698,6 @@
 		D2B80DD71CB8CD990007B049 /* InvitationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvitationManager.m; path = Me/InvitationManager.m; sourceTree = "<group>"; };
 		D2C24FD21C5646C7007A58F0 /* JLUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLUserInfoViewController.h; sourceTree = "<group>"; };
 		D2C24FD31C5646C7007A58F0 /* JLUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLUserInfoViewController.m; sourceTree = "<group>"; };
-		D2D7229D1C5F926900B1CEDA /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
-		D2D7229E1C5F926900B1CEDA /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		D2D722A01C5F926900B1CEDA /* CustomMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMessageCell.h; sourceTree = "<group>"; };
 		D2D722A11C5F926900B1CEDA /* CustomMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMessageCell.m; sourceTree = "<group>"; };
 		D2D722A21C5F926900B1CEDA /* EMBubbleView+Gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMBubbleView+Gif.h"; sourceTree = "<group>"; };
@@ -975,8 +977,6 @@
 		D2D968EF1C66E4C60085D0FB /* CoachDetailHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoachDetailHeader.m; sourceTree = "<group>"; };
 		D2D978F11C7978D200529796 /* JLExchangeVoucherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLExchangeVoucherCell.h; sourceTree = "<group>"; };
 		D2D978F21C7978D200529796 /* JLExchangeVoucherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLExchangeVoucherCell.m; sourceTree = "<group>"; };
-		D2D9AE181C5B84C400D8E833 /* JLPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPersonalCenterViewController.h; sourceTree = "<group>"; };
-		D2D9AE191C5B84C400D8E833 /* JLPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPersonalCenterViewController.m; sourceTree = "<group>"; };
 		D2D9AE1C1C5B84EF00D8E833 /* JLPersonalCenterHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPersonalCenterHeader.h; sourceTree = "<group>"; };
 		D2D9AE1D1C5B84EF00D8E833 /* JLPersonalCenterHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPersonalCenterHeader.m; sourceTree = "<group>"; };
 		D2D9AE201C5B851300D8E833 /* JLPersonalPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPersonalPhotoCollectionViewCell.h; sourceTree = "<group>"; };
@@ -1560,8 +1560,8 @@
 		D26AF0F91C6045C000545770 /* AddFriend */ = {
 			isa = PBXGroup;
 			children = (
-				D273CF7B1CC72CB90083A2EA /* JLAddFriendViewController.h */,
-				D273CF7C1CC72CB90083A2EA /* JLAddFriendViewController.m */,
+				D273CF811CC730880083A2EA /* JLAddFriendViewController.h */,
+				D273CF821CC730880083A2EA /* JLAddFriendViewController.m */,
 			);
 			name = AddFriend;
 			sourceTree = "<group>";
@@ -1873,8 +1873,8 @@
 		D2D7229C1C5F926900B1CEDA /* ChatView */ = {
 			isa = PBXGroup;
 			children = (
-				D2D7229D1C5F926900B1CEDA /* ChatViewController.h */,
-				D2D7229E1C5F926900B1CEDA /* ChatViewController.m */,
+				D273CF841CC746200083A2EA /* ChatViewController.h */,
+				D273CF851CC746200083A2EA /* ChatViewController.m */,
 				D2D7229F1C5F926900B1CEDA /* CustomizableCell */,
 			);
 			name = ChatView;
@@ -2495,8 +2495,8 @@
 		D2D9AE171C5B848600D8E833 /* PersonalCenter */ = {
 			isa = PBXGroup;
 			children = (
-				D2D9AE181C5B84C400D8E833 /* JLPersonalCenterViewController.h */,
-				D2D9AE191C5B84C400D8E833 /* JLPersonalCenterViewController.m */,
+				D273CF871CC746430083A2EA /* JLPersonalCenterViewController.h */,
+				D273CF881CC746430083A2EA /* JLPersonalCenterViewController.m */,
 			);
 			name = PersonalCenter;
 			sourceTree = "<group>";
@@ -3654,7 +3654,7 @@
 				FC6F774A1C52088B003671C6 /* Helper+Cache.m in Sources */,
 				FC95226B1C95415700558A65 /* JLVideoItemModel.m in Sources */,
 				D29760AC1CA25F0200F7E843 /* Order.m in Sources */,
-				D273CF7D1CC72CB90083A2EA /* JLAddFriendViewController.m in Sources */,
+				D273CF831CC730880083A2EA /* JLAddFriendViewController.m in Sources */,
 				D26AF0F41C6043EC00545770 /* NSDate+Category.m in Sources */,
 				FCD1A7A91CB8C11300E1D469 /* UIImage+Cut.m in Sources */,
 				D25834011C62F95700695298 /* DJQRateView.m in Sources */,
@@ -3694,7 +3694,6 @@
 				D27438D51CA3D68E0011E99F /* qrinput.c in Sources */,
 				D2D724291C5F926A00B1CEDA /* EaseBubbleView+Location.m in Sources */,
 				D2E08EB11C808219007B539C /* JLFansCell.m in Sources */,
-				D2D723D41C5F926900B1CEDA /* ChatViewController.m in Sources */,
 				D2D723FD1C5F926A00B1CEDA /* UIView+EMWebCacheOperation.m in Sources */,
 				D25833FE1C62F7AA00695298 /* DJQStartView.m in Sources */,
 				D2D9E1EE1C78A25700BBCF3D /* JLReadeemCodeViewController.m in Sources */,
@@ -3735,6 +3734,7 @@
 				D2D724061C5F926A00B1CEDA /* PSTCollectionViewUpdateItem.m in Sources */,
 				D270B1E21C5B0E4E004B18B9 /* JLBusinessCardViewController.m in Sources */,
 				D2D723DA1C5F926900B1CEDA /* EMCDDeviceManager+Media.m in Sources */,
+				D273CF861CC746200083A2EA /* ChatViewController.m in Sources */,
 				FCD1A7AA1CB8C11300E1D469 /* UIImage+Resize.m in Sources */,
 				D27C98F41C76A9430027DFA6 /* NickNameAndHeadImage.m in Sources */,
 				D2975E9E1CA22E7B00F7E843 /* ApplySuccessfulViewController.m in Sources */,
@@ -3782,6 +3782,7 @@
 				FC6F77301C520558003671C6 /* NSDictionary+Additional.m in Sources */,
 				D2D723F91C5F926A00B1CEDA /* UIImage+EMMultiFormat.m in Sources */,
 				D2D723E81C5F926A00B1CEDA /* MWPhoto.m in Sources */,
+				D273CF891CC746430083A2EA /* JLPersonalCenterViewController.m in Sources */,
 				D2F1D1CA1C5881940067D287 /* UWDatePickerView.m in Sources */,
 				FCD1A7A51CB8C11300E1D469 /* markView.m in Sources */,
 				D2D724261C5F926A00B1CEDA /* EaseMessageTimeCell.m in Sources */,
@@ -3868,7 +3869,6 @@
 				D2B80DD51CB8CD900007B049 /* UserProfileManager.m in Sources */,
 				D27438D21CA3D68E0011E99F /* bitstream.c in Sources */,
 				FC6F77471C520783003671C6 /* Helper+Date.m in Sources */,
-				D2D9AE1A1C5B84C400D8E833 /* JLPersonalCenterViewController.m in Sources */,
 				D2D9E1F11C78A27100BBCF3D /* JLExchangeVoucherViewController.m in Sources */,
 				D2D7240F1C5F926A00B1CEDA /* EaseUserModel.m in Sources */,
 				D2D7242F1C5F926A00B1CEDA /* EaseChatToolbarItem.m in Sources */,
