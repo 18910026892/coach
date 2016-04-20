@@ -331,8 +331,8 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
         HttpRequest *request = [[HttpRequest alloc]init];
         [request RequestDataWithUrl:URL_feedback pragma:postDict ImageDatas:imgsData imageName:@"images"];
         [request getResultWithSuccess:^(id response) {
-            [HDHud showMessageInView:self.view title:@"发布成功"];
-            [[NSNotificationCenter defaultCenter]postNotificationName:KN_POSTREFRESH object:nil];
+            [HDHud showMessageInView:self.view title:@"提交成功"];
+    
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)),dispatch_get_main_queue(),^{
                 [self.navigationController popViewControllerAnimated:YES];
             });
